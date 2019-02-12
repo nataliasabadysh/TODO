@@ -3,22 +3,22 @@
   ],
   "warnings": [
     "./source/app/instruments/index.js 1:0-93\n\"export 'BaseTaskModel' was not found in './helpers'\n    at HarmonyExportImportedSpecifierDependency._getErrors (/Users/taras/Desktop/LectrumeReact Course/ToDo/node_modules/webpack/lib/dependencies/HarmonyExportImportedSpecifierDependency.js:383:11)\n    at HarmonyExportImportedSpecifierDependency.getWarnings (/Users/taras/Desktop/LectrumeReact Course/ToDo/node_modules/webpack/lib/dependencies/HarmonyExportImportedSpecifierDependency.js:330:15)\n    at Compilation.reportDependencyErrorsAndWarnings (/Users/taras/Desktop/LectrumeReact Course/ToDo/node_modules/webpack/lib/Compilation.js:1356:24)\n    at Compilation.finish (/Users/taras/Desktop/LectrumeReact Course/ToDo/node_modules/webpack/lib/Compilation.js:1167:9)\n    at hooks.make.callAsync.err (/Users/taras/Desktop/LectrumeReact Course/ToDo/node_modules/webpack/lib/Compiler.js:622:17)\n    at _done (eval at create (/Users/taras/Desktop/LectrumeReact Course/ToDo/node_modules/tapable/lib/HookCodeFactory.js:32:10), <anonymous>:9:1)\n    at _err1 (eval at create (/Users/taras/Desktop/LectrumeReact Course/ToDo/node_modules/tapable/lib/HookCodeFactory.js:32:10), <anonymous>:32:22)\n    at _addModuleChain (/Users/taras/Desktop/LectrumeReact Course/ToDo/node_modules/webpack/lib/Compilation.js:1095:12)\n    at processModuleDependencies.err (/Users/taras/Desktop/LectrumeReact Course/ToDo/node_modules/webpack/lib/Compilation.js:1007:9)\n    at process._tickCallback (internal/process/next_tick.js:61:11)\n @ ./source/app/components/Scheduler/index.js\n @ ./source/app/index.js\n @ ./source/index.js",
-    "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  js/source.c527c.js (508 KiB)",
-    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  source (516 KiB)\n      css/62e6358fa240a5882fd7.c103d.css\n      js/source.c527c.js\n",
+    "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  js/source.fcd54.js (508 KiB)",
+    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  source (516 KiB)\n      css/62e6358fa240a5882fd7.8a7a5.css\n      js/source.fcd54.js\n",
     "webpack performance recommendations: \nYou can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.\nFor more info visit https://webpack.js.org/guides/code-splitting/"
   ],
   "version": "4.29.0",
-  "hash": "c103d66390aa5ae284b4",
-  "time": 4866,
-  "builtAt": 1549977200235,
+  "hash": "8a7a59aa3bcad24d5a83",
+  "time": 3847,
+  "builtAt": 1549977829368,
   "publicPath": "/",
   "outputPath": "/Users/taras/Desktop/LectrumeReact Course/ToDo/build",
   "assetsByChunkName": {
     "source": [
-      "css/62e6358fa240a5882fd7.c103d.css",
-      "js/source.c527c.js",
-      "css/62e6358fa240a5882fd7.c103d.css.map",
-      "js/source.c527c.js.map"
+      "css/62e6358fa240a5882fd7.8a7a5.css",
+      "js/source.fcd54.js",
+      "css/62e6358fa240a5882fd7.8a7a5.css.map",
+      "js/source.fcd54.js.map"
     ]
   },
   "assets": [
@@ -32,7 +32,7 @@
       "emitted": true
     },
     {
-      "name": "css/62e6358fa240a5882fd7.c103d.css",
+      "name": "css/62e6358fa240a5882fd7.8a7a5.css",
       "size": 8076,
       "chunks": [
         0
@@ -43,7 +43,7 @@
       "emitted": true
     },
     {
-      "name": "css/62e6358fa240a5882fd7.c103d.css.map",
+      "name": "css/62e6358fa240a5882fd7.8a7a5.css.map",
       "size": 7224,
       "chunks": [
         0
@@ -63,8 +63,8 @@
       "emitted": true
     },
     {
-      "name": "js/source.c527c.js",
-      "size": 520505,
+      "name": "js/source.fcd54.js",
+      "size": 520600,
       "chunks": [
         0
       ],
@@ -75,8 +75,8 @@
       "isOverSizeLimit": true
     },
     {
-      "name": "js/source.c527c.js.map",
-      "size": 634027,
+      "name": "js/source.fcd54.js.map",
+      "size": 634099,
       "chunks": [
         0
       ],
@@ -93,10 +93,10 @@
         0
       ],
       "assets": [
-        "css/62e6358fa240a5882fd7.c103d.css",
-        "js/source.c527c.js",
-        "css/62e6358fa240a5882fd7.c103d.css.map",
-        "js/source.c527c.js.map"
+        "css/62e6358fa240a5882fd7.8a7a5.css",
+        "js/source.fcd54.js",
+        "css/62e6358fa240a5882fd7.8a7a5.css.map",
+        "js/source.fcd54.js.map"
       ],
       "children": {
       },
@@ -111,10 +111,10 @@
         0
       ],
       "assets": [
-        "css/62e6358fa240a5882fd7.c103d.css",
-        "js/source.c527c.js",
-        "css/62e6358fa240a5882fd7.c103d.css.map",
-        "js/source.c527c.js.map"
+        "css/62e6358fa240a5882fd7.8a7a5.css",
+        "js/source.fcd54.js",
+        "css/62e6358fa240a5882fd7.8a7a5.css.map",
+        "js/source.fcd54.js.map"
       ],
       "children": {
       },
@@ -129,17 +129,17 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 515519,
+      "size": 515551,
       "names": [
         "source"
       ],
       "files": [
-        "css/62e6358fa240a5882fd7.c103d.css",
-        "js/source.c527c.js",
-        "css/62e6358fa240a5882fd7.c103d.css.map",
-        "js/source.c527c.js.map"
+        "css/62e6358fa240a5882fd7.8a7a5.css",
+        "js/source.fcd54.js",
+        "css/62e6358fa240a5882fd7.8a7a5.css.map",
+        "js/source.fcd54.js.map"
       ],
-      "hash": "c527c3192097034e3150",
+      "hash": "fcd54e5233b13bc97799",
       "siblings": [
       ],
       "parents": [
@@ -776,7 +776,7 @@
               "moduleName": "./source/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "8:7-12"
+              "loc": "8:16-21"
             }
           ],
           "usedExports": true,
@@ -1380,7 +1380,7 @@
               "moduleName": "./source/index.js + 1 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react-dom",
-              "loc": "3:0-35"
+              "loc": "3:0-33"
             },
             {
               "moduleId": 35,
@@ -1389,13 +1389,12 @@
               "moduleName": "./source/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react-dom",
-              "loc": "8:0-6"
+              "loc": "8:0-8"
             }
           ],
           "usedExports": [
             "default",
-            "findDOMNode",
-            "render"
+            "findDOMNode"
           ],
           "providedExports": null,
           "optimizationBailout": [
@@ -2333,7 +2332,7 @@
               "moduleName": "./source/index.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "./components/Scheduler",
-              "loc": "8:27-36"
+              "loc": "8:36-45"
             }
           ],
           "usedExports": [
@@ -3979,7 +3978,7 @@
           "name": "./source/index.js + 1 modules",
           "index": 0,
           "index2": 43,
-          "size": 282,
+          "size": 314,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -4065,7 +4064,7 @@
               "name": "./source/app/index.js",
               "index": 1,
               "index2": 42,
-              "size": 247,
+              "size": 279,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -4104,7 +4103,7 @@
               "optimizationBailout": [
               ],
               "depth": 1,
-              "source": "// Core\nimport React from 'react';\nimport { render } from 'react-dom'; // Instruments\n\nimport './theme/init'; // App\n\nimport { Scheduler } from './components/Scheduler';\nrender(React.createElement(Scheduler, null), document.getElementById('app'));"
+              "source": "// Core\nimport React from 'react';\nimport ReactDOM from 'react-dom'; // Instruments\n\nimport './theme/init'; // App\n\nimport { Scheduler } from './components/Scheduler';\nReactDOM.render(React.createElement(Scheduler, {\n  basename: \"/ToDo/build\"\n}), document.getElementById('app'));"
             }
           ],
           "filteredModules": 0
@@ -4926,7 +4925,7 @@
           "moduleName": "./source/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "8:7-12"
+          "loc": "8:16-21"
         }
       ],
       "usedExports": true,
@@ -5530,7 +5529,7 @@
           "moduleName": "./source/index.js + 1 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react-dom",
-          "loc": "3:0-35"
+          "loc": "3:0-33"
         },
         {
           "moduleId": 35,
@@ -5539,13 +5538,12 @@
           "moduleName": "./source/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react-dom",
-          "loc": "8:0-6"
+          "loc": "8:0-8"
         }
       ],
       "usedExports": [
         "default",
-        "findDOMNode",
-        "render"
+        "findDOMNode"
       ],
       "providedExports": null,
       "optimizationBailout": [
@@ -6483,7 +6481,7 @@
           "moduleName": "./source/index.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "./components/Scheduler",
-          "loc": "8:27-36"
+          "loc": "8:36-45"
         }
       ],
       "usedExports": [
@@ -8129,7 +8127,7 @@
       "name": "./source/index.js + 1 modules",
       "index": 0,
       "index2": 43,
-      "size": 282,
+      "size": 314,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -8215,7 +8213,7 @@
           "name": "./source/app/index.js",
           "index": 1,
           "index2": 42,
-          "size": 247,
+          "size": 279,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -8254,7 +8252,7 @@
           "optimizationBailout": [
           ],
           "depth": 1,
-          "source": "// Core\nimport React from 'react';\nimport { render } from 'react-dom'; // Instruments\n\nimport './theme/init'; // App\n\nimport { Scheduler } from './components/Scheduler';\nrender(React.createElement(Scheduler, null), document.getElementById('app'));"
+          "source": "// Core\nimport React from 'react';\nimport ReactDOM from 'react-dom'; // Instruments\n\nimport './theme/init'; // App\n\nimport { Scheduler } from './components/Scheduler';\nReactDOM.render(React.createElement(Scheduler, {\n  basename: \"/ToDo/build\"\n}), document.getElementById('app'));"
         }
       ],
       "filteredModules": 0

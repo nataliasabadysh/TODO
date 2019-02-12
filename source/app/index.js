@@ -1,6 +1,6 @@
 // Core
 import React from 'react';
-import { render } from 'react-dom';
+import ReactDOM from 'react-dom';
 
 // Instruments
 import './theme/init';
@@ -8,4 +8,4 @@ import './theme/init';
 // App
 import { Scheduler } from './components/Scheduler';
 
-render(<Scheduler />, document.getElementById('app'));
+ReactDOM.render(<Scheduler basename = '/ToDo/build' />, document.getElementById('app'));

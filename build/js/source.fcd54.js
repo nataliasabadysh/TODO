@@ -13867,6 +13867,7 @@ var react_default = /*#__PURE__*/__webpack_require__.n(react);
 
 // EXTERNAL MODULE: ./node_modules/react-dom/index.js
 var react_dom = __webpack_require__(5);
+var react_dom_default = /*#__PURE__*/__webpack_require__.n(react_dom);
 
 // EXTERNAL MODULE: ./source/app/theme/init.css
 var init = __webpack_require__(26);
@@ -13882,10 +13883,12 @@ var Scheduler = __webpack_require__(14);
  // App
 
 
-Object(react_dom["render"])(react_default.a.createElement(Scheduler["a" /* Scheduler */], null), document.getElementById('app'));
+react_dom_default.a.render(react_default.a.createElement(Scheduler["a" /* Scheduler */], {
+  basename: "/ToDo/build"
+}), document.getElementById('app'));
 // CONCATENATED MODULE: ./source/index.js
 
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=source.c527c.js.map
+//# sourceMappingURL=source.fcd54.js.map

@@ -11,6 +11,7 @@
         "analyze": "webpack-bundle-analyzer \"./build/build-stats.json\" build",
         "prettier": "prettier-eslint --list-different \"./source/**/*.js\"; prettier-eslint --write \"./source/**/*.js\""
     },
+    "homepage": "https://nataliasabadysh.github.io/ToDo/build",
     "dependencies": {
         "classnames": "2.2.6",
         "faker": "4.1.0",
